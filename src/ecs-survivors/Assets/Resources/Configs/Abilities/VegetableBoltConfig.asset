@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb1dd8c41bf436caee7f81724e3e329, type: 3}
+  m_Name: VegetableBoltConfig
+  m_EditorClassIdentifier: 
+  AbilityId: 1
+  Levels:
+  - Icon: {fileID: -219949570, guid: d5b38a44d661b59469b9795112af70db, type: 3}
+    Description: '"Orange 1 lvl"'
+    Cooldown: 1
+    ViewPrefab: {fileID: 2317523659501489138, guid: 024923be3b9b27b4a815de6bac7277a9, type: 3}
+    EffectSetups:
+    - EffectTypeId: 1
+      Value: 1
+    StatusSetups: []
+    ProjectileSetup:
+      ProjectileCount: 1
+      Speed: 3
+      Pierce: 3
+      ContactRadius: 0.1
+      LifeTime: 3
+      OrbitRadius: 0
+    AuraSetup:
+      Radius: 0
+      Interval: 0
+  - Icon: {fileID: -219949570, guid: d5b38a44d661b59469b9795112af70db, type: 3}
+    Description: '"Orange 2 lvl"'
+    Cooldown: 0.6
+    ViewPrefab: {fileID: 2317523659501489138, guid: 024923be3b9b27b4a815de6bac7277a9, type: 3}
+    EffectSetups:
+    - EffectTypeId: 1
+      Value: 1
+    StatusSetups: []
+    ProjectileSetup:
+      ProjectileCount: 1
+      Speed: 3
+      Pierce: 3
+      ContactRadius: 0.1
+      LifeTime: 3
+      OrbitRadius: 0
+    AuraSetup:
+      Radius: 0
+      Interval: 0
